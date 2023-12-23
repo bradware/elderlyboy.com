@@ -9,8 +9,8 @@ body {
   transform: translateX(-50%);
 
   /* Default color scheme is DARK_MODE. JS handles toggling between themes */
-  background-color: black;
-  color: white;
+  background-color: #E75556;
+  color: #33CCCC;
   margin: 0;
   padding: 0;
 }
@@ -68,7 +68,7 @@ a:hover {
 
 #loading > div {
   /* Default color scheme is DARK_MODE. JS handles toggling between themes */
-  background-color: white;
+  background-color: #33CCCC;
   height: 100%;
   width: 6px;
   display: inline-block;

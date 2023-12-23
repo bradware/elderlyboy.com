@@ -9,8 +9,8 @@ const ICON = 'I';
 
 const COLOR = 'color';
 const BACKGROUND_COLOR = 'background-color';
-const WHITE = 'white';
-const BLACK = 'black';
+const LIGHT = '#33CCCC';
+const DARK = '#E75556';
 const MARGIN_TOP = 'marginTop';
 const HREF = 'href';
 const FAVICON_DARK = 'assets/favicon_dark.png';
@@ -54,12 +54,12 @@ function toggleColorScheme(domElement, favicon) {
 	IS_DARK_MODE = !IS_DARK_MODE;
 
 	if (IS_DARK_MODE) {
-		domElement.css(COLOR, WHITE);
-		domElement.css(BACKGROUND_COLOR, BLACK);
+		domElement.css(COLOR, LIGHT);
+		domElement.css(BACKGROUND_COLOR, DARK);
 		favicon.attr(HREF, FAVICON_DARK);
 	} else {
-		domElement.css(COLOR, BLACK);
-		domElement.css(BACKGROUND_COLOR, WHITE);
+		domElement.css(COLOR, DARK);
+		domElement.css(BACKGROUND_COLOR, LIGHT);
 		favicon.attr(HREF, FAVICON_LIGHT);
 	}
 }
