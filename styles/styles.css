@@ -25,7 +25,7 @@ body {
 }
 
 #title {
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Gloria Hallelujah';
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
@@ -52,7 +52,7 @@ a:hover {
 }
 
 #copyright {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gloria Hallelujah';
   font-weight: normal;
   text-overflow: ellipsis;
   white-space: nowrap;
