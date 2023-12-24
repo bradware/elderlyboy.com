@@ -28,7 +28,7 @@ let IS_DARK_MODE = true;
 let START_TIME = $.now();
 
 // studios.elderlyboy.com redirect to the ebs youtube channel
-if (WINDOW_LOCATION.href.includes(REDIRECT_MATCH)) {
+if (WINDOW_LOCATION.href.indexOf(REDIRECT_MATCH) > -1) {
 	WINDOW_LOCATION.replace(REDIRECT_URL);
 }
 
