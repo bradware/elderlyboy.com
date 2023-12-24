@@ -1,4 +1,8 @@
 // Constants
+const WINDOW_LOCATION = window.location;
+const REDIRECT_MATCH = 'studios.elderlyboy.com';
+const REDIRECT_URL = 'https://www.youtube.com/@elderlyboy';
+
 const HTML = 'html';
 const BODY = 'body';
 const FAVICON = '#favicon';
@@ -22,6 +26,11 @@ const HEIGHT_OFFSET = 0.75;
 
 let IS_DARK_MODE = true;
 let START_TIME = $.now();
+
+// studios.elderlyboy.com redirect to the ebs youtube channel
+if (WINDOW_LOCATION.href.includes(REDIRECT_MATCH)) {
+	WINDOW_LOCATION.replace(REDIRECT_URL);
+}
 
 $(document).ready(function() {
 	const loading = $(LOADING);
