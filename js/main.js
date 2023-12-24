@@ -1,6 +1,6 @@
 // Constants
 const WINDOW_LOCATION = window.location;
-const REDIRECT_MATCH = 'tudios.elderlyboy.com';
+const REDIRECT_MATCH = 'studios';
 const REDIRECT_URL = 'https://www.youtube.com/@elderlyboy';
 
 const HTML = 'html';
