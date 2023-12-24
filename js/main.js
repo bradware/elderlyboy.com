@@ -1,7 +1,7 @@
 // Constants
-const WINDOW_LOCATION = window.location;
-const REDIRECT_MATCH = 'studios';
-const REDIRECT_URL = 'https://www.youtube.com/@elderlyboy';
+// const WINDOW_LOCATION = window.location;
+// const REDIRECT_MATCH = 'studios';
+// const REDIRECT_URL = 'https://www.youtube.com/@elderlyboy';
 
 const HTML = 'html';
 const BODY = 'body';
@@ -27,11 +27,13 @@ const HEIGHT_OFFSET = 0.75;
 let IS_DARK_MODE = true;
 let START_TIME = $.now();
 
+// TODO: this does not work! figure out why
+// https://masteringjs.io/tutorials/fundamentals/if-url-contains
 // studios.elderlyboy.com redirect to the ebs youtube channel
-if (WINDOW_LOCATION.href.indexOf(REDIRECT_MATCH) > -1) {
-	console.log('it worked!');
-	// WINDOW_LOCATION.replace(REDIRECT_URL);
-}
+// if (WINDOW_LOCATION.href.indexOf(REDIRECT_MATCH) > -1) {
+// 	console.log('it worked!');
+// 	WINDOW_LOCATION.replace(REDIRECT_URL);
+// }
 
 $(document).ready(function() {
 	const loading = $(LOADING);
