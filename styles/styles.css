@@ -10,7 +10,7 @@ body {
 
   /* Default color scheme is DARK_MODE. JS handles toggling between themes */
   background-color: #E75556;
-  color: #33CCCC;
+  color: #55E7E6; 
   margin: 0;
   padding: 0;
 }
